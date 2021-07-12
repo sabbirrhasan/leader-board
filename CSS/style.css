@@ -193,6 +193,18 @@
  }
 
  @media only screen and (max-width: 688px) {
+    .logo i{
+        font-size: 30px;
+    }
+    .logo h3 {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .menu ul li:first-child{
+        margin-left: -5px;
+    }
+    
+    
     .header-container{
         width: 85%;
     }
@@ -200,7 +212,7 @@
         width: 85%;
     }
     .menu ul li{
-        margin-right: 20px;
+        margin-right: 6px;
     }
     .menu ul li a{
         font-size: 12px;
