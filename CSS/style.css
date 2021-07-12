@@ -196,9 +196,14 @@
  }
 
  @media only screen and (max-width: 688px) {
-    
+    .header-container{
+        width: 90%;
+    }
     .container{
-        width: 100%;
+        width: 95%;
+    }
+    hr{
+        width: 75%;
     }
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
@@ -218,15 +223,12 @@
  }
 
  @media only screen and (min-width: 688px) and (max-width: 992px) {
-     
-    .header-container{
-        justify-content: space-around;
+    
+    hr{
+        width: 75%;
     }
-
-    
-    
     .container{
-         width: 100%;
+         width: 95%;
      }
      .players, .blogs, .courses{
         grid-template-columns: repeat(2, 1fr);
