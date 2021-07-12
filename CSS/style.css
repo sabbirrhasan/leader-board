@@ -34,10 +34,7 @@
  .menu ul{
      list-style-type: none;
      display: flex;
-     align-items: center;
-
-
-     
+     align-items: center;  
  }
  .menu ul li{
      margin-right: 36px;
@@ -197,10 +194,16 @@
 
  @media only screen and (max-width: 688px) {
     .header-container{
-        width: 90%;
+        width: 85%;
     }
     .container{
-        width: 95%;
+        width: 85%;
+    }
+    .menu ul li{
+        margin-right: 20px;
+    }
+    .menu ul li a{
+        font-size: 12px;
     }
     hr{
         width: 75%;
@@ -223,13 +226,21 @@
  }
 
  @media only screen and (min-width: 688px) and (max-width: 992px) {
-    
-    hr{
-        width: 75%;
+    .header-container{
+        width: 85%;
     }
     .container{
-         width: 95%;
-     }
+        width: 85%;
+    }
+    .menu ul li{
+        margin-right: 20px;
+    }
+    .menu ul li a{
+        font-size: 12px;
+    }
+     hr{
+        width: 75%;
+    }
      .players, .blogs, .courses{
         grid-template-columns: repeat(2, 1fr);
     }
